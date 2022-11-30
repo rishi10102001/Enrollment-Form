@@ -1,0 +1,56 @@
+#header {
+    background-color: #05c4f4d4;
+    padding: 10px;
+    color: rgb(85, 81, 81);
+}
+#heading {
+    font-size:35px;
+}
+#productTable {
+    border-width: 2px;
+    border-color: rgba(57, 135, 252, 0.801);
+    padding:0px
+}
+
+#displayTable {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size:30px;
+}
+#OutputTable
+{
+    background-color:rgba(1, 112, 215, 0.83);
+    color:white;
+}
+#vertical {
+    border-left: 3px solid #060606cf;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    text-align: right;
+}
+
+#image {
+    width: 150px;
+}
+
+#newData {
+    border-color:rgb(35, 72, 85);
+}
+
+#errorMsg{
+    color:red;
+}
+
+* {
+    outline: none;
+}
+
+.message {
+    display: inline-block;
+}
+
+.email-field:focus:invalid + .message::after {
+    color: red;
+    content: "Invalid email address";
+}
